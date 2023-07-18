@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Box{
+    display: inline;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(87, 175, 216);
+    margin-top:10px;
+    display: flex;
+    
+}
+
+.pig{
+    margin: 10px;
+    margin-top: 10px;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin-top:10px;
+    justify-content: center;
+    border-radius: 200px;
+}
+
+.eye-1,.eye-2{
+    width: 15%;
+    height: 15%;
+    display: inline;
+    background-color: white;
+    margin-top:70px;
+    margin-right:20px;
+    margin-left:10px;
+    border-radius: 50px;
+    display: flex;
+}
+.eye-11,.eye-22{
+    width: 70%;
+    height: 70%;
+    background-color: black;
+    border-radius: 20px;
+    flex-direction: column-reverse;
+    margin-top: 8px;
+    margin-right: 2px;
+    margin-left:2px;
+    margin-bottom: 2px;
+}
+/* pig ears styling */
+
+.ears{
+    position: fixed;
+    top:1%;
+    /* left:5%; */
+    width: 55%;
+    height: 50%;
+}
+
+.ear{
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   background-color: red;
+   border-radius: 100%;
+}
+
+.ear.left{
+    left:0;
+}
+
+.ear.right{
+    right:81.5%;
+}
+
+
+.mouth{
+    position: absolute;
+    top:10%;
+    width:50px;
+    background-color:deeppink;
+    height: 50px;
+    margin-top: 40px;
+    margin-left:30px;
+    left: 2.4%;
+    right: 80px;
+    
+    border-radius: 120px;
+    display: flex;
+    padding: 1px;
+
+}
+
+/* p{
+    color: ;
+    margin-top:10px;
+    margin-right: 8px;
+    justify-content: center;
+    margin-left:8px;
+    font-weight: bold;
+    font-size: 24px;
+} */
+
+.one1,.two2{
+    width: 8px;
+    height: 8px;
+    background-color: brown;
+    border-radius: 20px;
+    flex-direction: column-reverse;
+    
+
+    
+    margin-top:25px;
+    /* margin-right: 12px; */
+    justify-content: space-between;
+    margin-left:8px;
+}
+
+.one, .two{
+    margin-right: 10px;
+}
